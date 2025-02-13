@@ -1,4 +1,4 @@
-FROM node:20.3
+FROM node:20.18.3
 WORKDIR /app
 
 COPY --chown=node:node package.json yarn.lock ./
